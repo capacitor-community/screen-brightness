@@ -9,10 +9,17 @@ import Capacitor
 public class ScreenBrightnessPlugin: CAPPlugin {
     private let implementation = ScreenBrightness()
 
-    @objc func echo(_ call: CAPPluginCall) {
-        let value = call.getString("value") ?? ""
+    @objc func setBrightness(_ call: CAPPluginCall) {
+        let brightness = call.getFloat("brightness", Float(UIScreen.main.brightness))
+        DispatchQueue.main.async {
+            UIScreen.main.brightness = CGFloat(brightness)
+            call.resolve()
+        }
+    }
+    
+    @objc func getBrightness(_ call: CAPPluginCall) {
         call.resolve([
-            "value": implementation.echo(value)
-        ])
+            "brightness": UIScreen.main.brightness
+        ])        
     }
 }

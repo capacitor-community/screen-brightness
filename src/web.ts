@@ -1,12 +1,14 @@
 import { WebPlugin } from '@capacitor/core';
 
-import type { ScreenBrightnessPlugin } from './definitions';
+import type { GetBrightnessReturnValue, ScreenBrightnessPlugin } from './definitions';
 
 export class ScreenBrightnessWeb
   extends WebPlugin
   implements ScreenBrightnessPlugin {
-  async echo(options: { value: string }): Promise<{ value: string }> {
-    console.log('ECHO', options);
-    return options;
+  setBrightness(): Promise<void> {
+    throw this.unimplemented('Not implemented on web.');
+  }
+  getBrightness(): Promise<GetBrightnessReturnValue> {
+    throw this.unimplemented('Not implemented on web.');
   }
 }
