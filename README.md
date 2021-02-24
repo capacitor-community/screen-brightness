@@ -35,7 +35,7 @@ No configuration required for this plugin
 
 ## Usage
 ```typescript
-import { ScreenBrightness } from 'capacitor-screen-brightness';
+import { ScreenBrightness } from '@capacitor-community/screen-brightness';
 
 // Set the brightness:
 const halfBright = 0.5;
