@@ -11,16 +11,16 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "CapacitorScreenBrightness.podspec"
+    "CapacitorCommunityScreenBrightness.podspec"
   ],
   "author": "",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://none.git"
+    "url": "git+https://github.com/capacitor-community/screen-brightness.git"
   },
   "bugs": {
-    "url": "https://none/issues"
+    "url": "https://github.com/capacitor-community/screen-brightness/issues"
   },
   "keywords": [
     "capacitor",
