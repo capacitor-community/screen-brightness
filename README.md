@@ -26,7 +26,7 @@
 ## Installation
 
 ```bash
-npm install capacitor-screen-brightness
+npm install @capacitor-community/screen-brightness
 npx cap sync
 ```
 ## Configuration
