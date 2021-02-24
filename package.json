@@ -1,5 +1,5 @@
 {
-  "name": "capacitor-screen-brightness",
+  "name": "@capacitor-community/screen-brightness",
   "version": "0.0.1",
   "description": "control screen brightness on ios and android",
   "main": "dist/plugin.cjs.js",
