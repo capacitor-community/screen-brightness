@@ -1,15 +1,39 @@
-# capacitor-screen-brightness
+<p align="center"><br><img src="https://user-images.githubusercontent.com/236501/85893648-1c92e880-b7a8-11ea-926d-95355b8175c7.png" width="128" height="128" /></p>
+<h3 align="center">Screen Brightness</h3>
+<p align="center"><strong><code>@capacitor-community/screen-brightness</code></strong></p>
+<p align="center">
+  Capacitor community plugin for controlling screen brightness on iOS and Android devices.
+</p>
 
-Control screen brightness on ios and android
+<p align="center">
+  <img src="https://img.shields.io/maintenance/yes/2020?style=flat-square" />
+  <a href="https://github.com/capacitor-community/screen-brightness/actions?query=workflow%3A%22Test+and+Build+Plugin%22"><img src="https://img.shields.io/github/workflow/status/capacitor-community/screen-b/Test%20and%20Build%20Plugin?style=flat-square" /></a>
+  <a href="https://www.npmjs.com/package/@capacitor-community/screen-brightness"><img src="https://img.shields.io/npm/l/@capacitor-community/screen-brightness?style=flat-square" /></a>
+<br>
+  <a href="https://www.npmjs.com/package/@capacitor-community/screen-brightness"><img src="https://img.shields.io/npm/dw/@capacitor-community/screen-brightness?style=flat-square" /></a>
+  <a href="https://www.npmjs.com/package/@capacitor-community/screen-brightness"><img src="https://img.shields.io/npm/v/@capacitor-community/screen-brightness?style=flat-square" /></a>
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+<a href="#contributors-"><img src="https://img.shields.io/badge/all%20contributors-4-orange?style=flat-square" /></a>
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+</p>
 
-## Install
+## Maintainers
+
+| Maintainer | GitHub | Social |
+| -----------| -------| -------|
+| Ely Lucas | [elylucas](https://github.com/elylucas) | [@elylucas](https://twitter.com/elylucas) |
+
+## Installation
 
 ```bash
 npm install capacitor-screen-brightness
 npx cap sync
 ```
+## Configuration
 
-## Example
+No configuration required for this plugin
+
+## Usage
 ```typescript
 import { ScreenBrightness } from 'capacitor-screen-brightness';
 
