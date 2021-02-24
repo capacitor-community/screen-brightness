@@ -61,7 +61,7 @@ const {brigthness: currentBrightness} = await ScreenBrightness.getBrightness();
 ### setBrightness(...)
 
 ```typescript
-setBrightness(options: SetBrightnessOptions) => any
+setBrightness(options: SetBrightnessOptions) => Promise<void>
 ```
 
 Sets the brightness level. On iOS, it sets the system level brightness, and on Android it sets the brightness for the current view.
@@ -69,8 +69,6 @@ Sets the brightness level. On iOS, it sets the system level brightness, and on A
 | Param         | Type                                                                  | Description               |
 | ------------- | --------------------------------------------------------------------- | ------------------------- |
 | **`options`** | <code><a href="#setbrightnessoptions">SetBrightnessOptions</a></code> | Options to set brightness |
-
-**Returns:** <code>any</code>
 
 **Since:** 1.0.0
 
@@ -80,13 +78,13 @@ Sets the brightness level. On iOS, it sets the system level brightness, and on A
 ### getBrightness()
 
 ```typescript
-getBrightness() => any
+getBrightness() => Promise<GetBrightnessReturnValue>
 ```
 
 Returns info than contains the current brightness level
 * @since 1.0.0
 
-**Returns:** <code>any</code>
+**Returns:** <code>Promise&lt;<a href="#getbrightnessreturnvalue">GetBrightnessReturnValue</a>&gt;</code>
 
 --------------------
 
