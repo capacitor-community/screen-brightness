@@ -10,6 +10,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "outDir": "dist/esm",
+    "inlineSources": true,
     "pretty": true,
     "sourceMap": true,
     "strict": true,
