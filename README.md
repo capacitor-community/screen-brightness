@@ -6,8 +6,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/capacitor%20v3%20support-yes-brightgreen?logo=Capacitor&style=flat-square" />
-  <img src="https://img.shields.io/maintenance/yes/2021?style=flat-square" />
+  <img src="https://img.shields.io/badge/capacitor%20v4%20support-yes-brightgreen?logo=Capacitor&style=flat-square" />
+  <img src="https://img.shields.io/maintenance/yes/2022?style=flat-square" />
   <a href="https://github.com/capacitor-community/screen-brightness/actions?query=workflow%3A%22Test+and+Build+Plugin%22"><img src="https://img.shields.io/github/workflow/status/capacitor-community/screen-brightness/Test%20and%20Build%20Plugin?style=flat-square" /></a>
   <a href="https://www.npmjs.com/package/@capacitor-community/screen-brightness"><img src="https://img.shields.io/npm/l/@capacitor-community/screen-brightness?style=flat-square" /></a>
 <br>
@@ -23,6 +23,13 @@
 | Maintainer | GitHub | Social |
 | -----------| -------| -------|
 | Ely Lucas | [elylucas](https://github.com/elylucas) | [@elylucas](https://twitter.com/elylucas) |
+
+## Versions
+
+| Plugin | Capacitor | Documentation                                                                     |
+| ------ | --------- | --------------------------------------------------------------------------------- |
+| 4.x    | 4.x       | [README](https://github.com/capacitor-community/screen-brightness/blob/main/README.md) |
+| 1.x    | 3.x       | [README](https://github.com/capacitor-community/screen-brightness/blob/1.x/README.md)  |
 
 ## Installation
 
