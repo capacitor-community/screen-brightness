@@ -39,11 +39,11 @@ No configuration required for this plugin
 import { ScreenBrightness } from '@capacitor-community/screen-brightness';
 
 // Set the brightness:
-const halfBright = 0.5;
-await ScreenBrightness.setBrightness({ halfBright });
+const brightness = 0.5;
+await ScreenBrightness.setBrightness({ brightness });
 
 // Get the current brightness:
-const {brigthness: currentBrightness} = await ScreenBrightness.getBrightness();
+const {brightness: currentBrightness} = await ScreenBrightness.getBrightness();
 ```
 
 ## API
