@@ -16,6 +16,9 @@ export interface SetBrightnessOptions {
   /**
    * The level to set the brightness to,
    * from 0.0 (very dim) to 1.0 (full brightness)
+   *
+   * On Android, setting the value to -1 restores the user configured brightness.
+   *
    * @since 1.0.0
    */
   brightness: number;
@@ -24,6 +27,9 @@ export interface SetBrightnessOptions {
 export interface GetBrightnessReturnValue {
   /**
    * The current brightness level, from 0.0 (very dim) to 1.0 (full brightness)
+   *
+   * On Android it returns -1 if the value has not been changed by the app.
+   *
    * @since 1.0.0
    */
   brightness: number;
