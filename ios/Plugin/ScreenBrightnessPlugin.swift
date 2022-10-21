@@ -7,7 +7,6 @@ import Capacitor
  */
 @objc(ScreenBrightnessPlugin)
 public class ScreenBrightnessPlugin: CAPPlugin {
-    private let implementation = ScreenBrightness()
 
     @objc func setBrightness(_ call: CAPPluginCall) {
         let brightness = call.getFloat("brightness", Float(UIScreen.main.brightness))
