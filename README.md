@@ -7,7 +7,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/capacitor%20v4%20support-yes-brightgreen?logo=Capacitor&style=flat-square" />
-  <img src="https://img.shields.io/maintenance/yes/2022?style=flat-square" />
+  <img src="https://img.shields.io/maintenance/yes/2023?style=flat-square" />
   <a href="https://github.com/capacitor-community/screen-brightness/actions?query=workflow%3A%22Test+and+Build+Plugin%22"><img src="https://img.shields.io/github/workflow/status/capacitor-community/screen-brightness/Test%20and%20Build%20Plugin?style=flat-square" /></a>
   <a href="https://www.npmjs.com/package/@capacitor-community/screen-brightness"><img src="https://img.shields.io/npm/l/@capacitor-community/screen-brightness?style=flat-square" /></a>
 <br>
