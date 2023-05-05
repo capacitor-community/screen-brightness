@@ -28,7 +28,8 @@
 
 | Plugin | Capacitor | Documentation                                                                     |
 | ------ | --------- | --------------------------------------------------------------------------------- |
-| 4.x    | 4.x       | [README](https://github.com/capacitor-community/screen-brightness/blob/main/README.md) |
+| 5.x    | 5.x       | [README](https://github.com/capacitor-community/screen-brightness/blob/main/README.md) |
+| 4.x    | 4.x       | [README](https://github.com/capacitor-community/screen-brightness/blob/4.x/README.md) |
 | 1.x    | 3.x       | [README](https://github.com/capacitor-community/screen-brightness/blob/1.x/README.md)  |
 
 ## Installation
