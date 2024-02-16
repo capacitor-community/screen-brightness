@@ -1,6 +1,6 @@
 {
   "name": "@capacitor-community/screen-brightness",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "control screen brightness on ios and android",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -45,10 +45,10 @@
     "test": "echo none yet!"
   },
   "devDependencies": {
-    "@capacitor/android": "^5.0.0",
-    "@capacitor/core": "^5.0.0",
+    "@capacitor/android": "next",
+    "@capacitor/core": "next",
     "@capacitor/docgen": "^0.0.15",
-    "@capacitor/ios": "^5.0.0",
+    "@capacitor/ios": "next",
     "@ionic/eslint-config": "^0.3.0",
     "@ionic/prettier-config": "^1.0.1",
     "@ionic/swiftlint-config": "^1.1.2",
@@ -61,7 +61,7 @@
     "typescript": "~4.1.5"
   },
   "peerDependencies": {
-    "@capacitor/core": "^5.0.0"
+    "@capacitor/core": "next"
   },
   "prettier": "@ionic/prettier-config",
   "swiftlint": "@ionic/swiftlint-config",
