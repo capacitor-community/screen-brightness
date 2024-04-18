@@ -2,19 +2,20 @@ name: Test and Build Plugin
 
 on:
   push:
-    branches: [main, develop]
+    branches: [main]
   pull_request:
     branches: [main]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macos-14
 
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: '14'
+          node-version: '18'
       - run: npm install
-      - run: npm run test
+      - run: npm run lint
+      - run: npm run verify
       - run: npm run build
