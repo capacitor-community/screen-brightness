@@ -6,8 +6,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/capacitor%20v5%20support-yes-brightgreen?logo=Capacitor&style=flat-square" />
-  <img src="https://img.shields.io/maintenance/yes/2023?style=flat-square" />
+  <img src="https://img.shields.io/badge/capacitor%20v6%20support-yes-brightgreen?logo=Capacitor&style=flat-square" />
+  <img src="https://img.shields.io/maintenance/yes/2024?style=flat-square" />
   <a href="https://github.com/capacitor-community/screen-brightness/actions?query=workflow%3A%22Test+and+Build+Plugin%22"><img src="https://img.shields.io/github/actions/workflow/status/capacitor-community/screen-brightness/ci.yml?Test%20and%20Build%20Plugin?style=flat-square" /></a>
   <a href="https://www.npmjs.com/package/@capacitor-community/screen-brightness"><img src="https://img.shields.io/npm/l/@capacitor-community/screen-brightness?style=flat-square" /></a>
 <br>
@@ -28,7 +28,8 @@
 
 | Plugin | Capacitor | Documentation                                                                     |
 | ------ | --------- | --------------------------------------------------------------------------------- |
-| 5.x    | 5.x       | [README](https://github.com/capacitor-community/screen-brightness/blob/main/README.md) |
+| 6.x    | 6.x       | [README](https://github.com/capacitor-community/screen-brightness/blob/main/README.md) |
+| 5.x    | 5.x       | [README](https://github.com/capacitor-community/screen-brightness/blob/5.x/README.md) |
 | 4.x    | 4.x       | [README](https://github.com/capacitor-community/screen-brightness/blob/4.x/README.md) |
 | 1.x    | 3.x       | [README](https://github.com/capacitor-community/screen-brightness/blob/1.x/README.md)  |
 
