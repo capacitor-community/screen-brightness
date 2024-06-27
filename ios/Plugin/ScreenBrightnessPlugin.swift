@@ -15,10 +15,10 @@ public class ScreenBrightnessPlugin: CAPPlugin {
             call.resolve()
         }
     }
-    
+
     @objc func getBrightness(_ call: CAPPluginCall) {
         call.resolve([
             "brightness": UIScreen.main.brightness
-        ])        
+        ])
     }
 }
