@@ -17,13 +17,11 @@ public class ScreenBrightnessPlugin extends Plugin {
         Activity activity = getActivity();
         WindowManager.LayoutParams layoutParams = activity.getWindow().getAttributes();
 
-        activity.runOnUiThread(
-            () -> {
-                layoutParams.screenBrightness = brightness;
-                activity.getWindow().setAttributes(layoutParams);
-                call.resolve();
-            }
-        );
+        activity.runOnUiThread(() -> {
+            layoutParams.screenBrightness = brightness;
+            activity.getWindow().setAttributes(layoutParams);
+            call.resolve();
+        });
     }
 
     @PluginMethod

@@ -15,16 +15,16 @@ public class ScreenBrightnessPlugin: CAPPlugin, CAPBridgedPlugin {
     ]
 
     @objc func setBrightness(_ call: CAPPluginCall) {
-            let brightness = call.getFloat("brightness", Float(UIScreen.main.brightness))
-            DispatchQueue.main.async {
-                UIScreen.main.brightness = CGFloat(brightness)
-                call.resolve()
-            }
+        let brightness = call.getFloat("brightness", Float(UIScreen.main.brightness))
+        DispatchQueue.main.async {
+            UIScreen.main.brightness = CGFloat(brightness)
+            call.resolve()
         }
+    }
 
-        @objc func getBrightness(_ call: CAPPluginCall) {
-            call.resolve([
-                "brightness": UIScreen.main.brightness
-            ])
-        }
+    @objc func getBrightness(_ call: CAPPluginCall) {
+        call.resolve([
+            "brightness": UIScreen.main.brightness
+        ])
+    }
 }
