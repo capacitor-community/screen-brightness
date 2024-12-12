@@ -16,9 +16,10 @@
         This project can be used to test out the functionality of your plugin. Nothing in the
         <em>example-app/</em> folder will be published to npm when using this template, so you can create away!
       </p>
-      <label for="echoInput">Echo Text:</label>
-      <input type="text" id="echoInput" name="echoInput" value="Hello World!" />
-      <button onclick="testEcho()">Click Me!</button>
+      <label for="brightnessInput">Brightness Test:</label>
+      <input onchange=updateValue() id="brightnessInput" type="range" min="0" max="1" step="0.1" />
+      <button onclick="reset()">Reset value (android only)</button>
+      <button onclick="getBrigtness()">get brigthness</button>
     </main>
 
     <script src="./js/example.js" type="module"></script>
