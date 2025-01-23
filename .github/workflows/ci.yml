@@ -28,9 +28,7 @@ jobs:
         with:
           node-version: '20'
       - uses: actions/checkout@v4
+      - run: cd ./example-app
       - run: npm install
-        working-directory: ./example-app
       - run: npm run build
-        working-directory: ./example-app
       - run: npx cap sync
-        working-directory: ./example-app
