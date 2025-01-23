@@ -19,3 +19,18 @@ jobs:
       - run: npm run lint
       - run: npm run build
       - run: npm run verify
+  build-example-app:
+    runs-on: macos-15
+    needs:
+      - build
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - uses: actions/checkout@v4
+      - run: npm install
+        working-directory: ./example-app
+      - run: npm run build
+        working-directory: ./example-app
+      - run: npx cap sync
+        working-directory: ./example-app
