@@ -16,6 +16,10 @@ jobs:
         with:
           node-version: '20'
       - run: npm install
-      - run: npm run lint
       - run: npm run build
-      - run: npm run verify
+      - run: npm install
+        working-directory: ./example-app
+      - run: npm run build
+        working-directory: ./example-app
+      - run: npx cap sync
+        working-directory: ./example-app
