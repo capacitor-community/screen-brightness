@@ -18,12 +18,6 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 </p>
 
-## Maintainers
-
-| Maintainer | GitHub | Social |
-| -----------| -------| -------|
-| Ely Lucas | [elylucas](https://github.com/elylucas) | [@elylucas](https://twitter.com/elylucas) |
-
 ## Versions
 
 | Plugin | Capacitor | Documentation                                                                     |
