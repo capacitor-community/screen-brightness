@@ -14,6 +14,10 @@ public class ScreenBrightnessPlugin extends Plugin {
     @PluginMethod
     public void setBrightness(PluginCall call) {
         Float brightness = call.getFloat("brightness");
+        if (brightness == null) {
+            call.reject("brightness is required");
+            return;
+        }
         Activity activity = getActivity();
         WindowManager.LayoutParams layoutParams = activity.getWindow().getAttributes();
 
